@@ -26,6 +26,8 @@ function App() {
         socket.current.onmessage = (event) => {
             const message = JSON.parse(event.data)
             setMessagesList(prevState => [message, ...prevState])
+            let audio = new Audio('Train_Projects/live-chat/i_phone_notification.mp3');
+            audio.play();
         }
 
         socket.current.onclose = (event) => {

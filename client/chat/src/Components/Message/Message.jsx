@@ -3,8 +3,6 @@ import './message.css'
 
 const Message = ({userName, message}) => {
 
-    // window.onfocus(event)
-
     if(message.event === 'connection') {
         return (
             <div className="connectionMessage">

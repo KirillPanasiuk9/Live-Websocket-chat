@@ -16,11 +16,7 @@
     padding-left: 10px;
     background: #202020;
     color: white;
-}
-
-.messageInput_textField:focus {
-    box-shadow: none;
-    border: #202020;
+    resize: both;
 }
 
 
