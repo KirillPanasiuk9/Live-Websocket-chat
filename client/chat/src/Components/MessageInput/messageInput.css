@@ -1,0 +1,36 @@
+.messageInput {
+    background: #2e2e2e;
+    margin-bottom: 0px;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.messageInput_textField {
+    border: none;
+    border-radius: 0.6rem;
+    height: 35px;
+    width: 75%;
+    font-size: 16px;
+    padding-left: 10px;
+    background: #202020;
+    color: white;
+}
+
+.messageInput_textField:focus {
+    box-shadow: none;
+    border: #202020;
+}
+
+
+.messageInput_button {
+    height: 40px;
+    width: 40px;
+    background: #0a569e;
+    border-radius: 50%;
+}
+
+.messageInput_button_arrow {
+    fill: white;
+}

@@ -1,0 +1,33 @@
+.logInForm {
+    margin: 100px auto;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: black 2px solid;
+    border-radius: 7px;
+    align-items: center;
+    background: #2e2e2e;
+}
+
+.logInInput {
+    border: #2e2e2e 2px solid;
+    width: 85%;
+    height: 20%;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    padding-left: 10px;
+    transition: 0.5s;
+    background: #202020;
+    color: white;
+}
+
+.logInButton {
+    border-radius: 0.5rem;
+    background: #0a569e;
+    color: white;
+    width: 40%;
+    height: 20%;
+    font-size: 18px;
+}
