@@ -9,6 +9,7 @@ const MessagesList = ({userName, messagesList}) => {
                 <Message
                     userName={userName}
                     message={message}
+                    messagesList={messagesList}
                 />
             )}
         </div>

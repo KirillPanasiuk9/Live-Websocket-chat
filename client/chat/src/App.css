@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body {
   background: #202020;
   color: white;
-  font-family: "Roboto Thin", serif;
+  font-family: "Roboto Thin", sans-serif;
 }
 
 
@@ -49,8 +49,8 @@ body {
   border: #2e2e2e 4px solid;
   border-radius: 5%;
   text-align: center;
-  margin: 100px auto;
-  width: 400px;
-  height: 500px;
+  margin: 0px auto;
+  width: 600px;
+  height: 700px;
   overflow: hidden;
 }

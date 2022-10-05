@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './message.css'
 
 const Message = ({userName, message}) => {
+
 
     if(message.event === 'connection') {
         return (

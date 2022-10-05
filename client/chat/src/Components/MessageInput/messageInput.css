@@ -10,7 +10,7 @@
 .messageInput_textField {
     border: none;
     border-radius: 0.6rem;
-    height: 35px;
+    height: 60%;
     width: 75%;
     font-size: 16px;
     padding-left: 10px;
@@ -25,8 +25,4 @@
     width: 40px;
     background: #0a569e;
     border-radius: 50%;
-}
-
-.messageInput_button_arrow {
-    fill: white;
 }
